@@ -4,6 +4,8 @@ PRODID:-//ETV Wochenplan//DE
 CALSCALE:GREGORIAN
 X-WR-CALNAME:ETV Kurse 2 Jahre
 X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:DAYLIGHT
@@ -22,8 +24,8 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:etv-2-0-1500-1@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-2e61382d5d23eeb0@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261123T150000
 DTEND;TZID=Europe/Berlin:20261123T160000
 RRULE:FREQ=WEEKLY
@@ -32,8 +34,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-0-1600-2@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-362098aa2c44f31b@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261123T160000
 DTEND;TZID=Europe/Berlin:20261123T170000
 RRULE:FREQ=WEEKLY
@@ -42,8 +44,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-0-1700-3@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-dbd5fe056f6962e4@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261123T170000
 DTEND;TZID=Europe/Berlin:20261123T180000
 RRULE:FREQ=WEEKLY
@@ -52,8 +54,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-1-1000-4@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-71f9b23fc96eb53a@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261124T100000
 DTEND;TZID=Europe/Berlin:20261124T110000
 RRULE:FREQ=WEEKLY
@@ -62,8 +64,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-1-1500-5@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-1a0914c6029be009@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261124T150000
 DTEND;TZID=Europe/Berlin:20261124T160000
 RRULE:FREQ=WEEKLY
@@ -72,8 +74,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Große Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-1-1500-6@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-a10d1bc851c8bb7b@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261124T150000
 DTEND;TZID=Europe/Berlin:20261124T160000
 RRULE:FREQ=WEEKLY
@@ -82,8 +84,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-1-1600-7@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-2c87f68312bd3cbd@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261124T160000
 DTEND;TZID=Europe/Berlin:20261124T170000
 RRULE:FREQ=WEEKLY
@@ -92,8 +94,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Große Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-1-1600-8@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-7028b28f3e77865a@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261124T160000
 DTEND;TZID=Europe/Berlin:20261124T170000
 RRULE:FREQ=WEEKLY
@@ -102,8 +104,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-1-1600-9@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-61fed00acfa8d143@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261124T160000
 DTEND;TZID=Europe/Berlin:20261124T164500
 RRULE:FREQ=WEEKLY
@@ -112,8 +114,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Club Céronne Saal. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-1-1700-10@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-0c23ec5cc7b22a7c@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261124T170000
 DTEND;TZID=Europe/Berlin:20261124T180000
 RRULE:FREQ=WEEKLY
@@ -122,8 +124,8 @@ LOCATION:Sporthalle Hohe Weide\, Hohe Weide 17a\, 20259 Hamburg
 DESCRIPTION:Raum: Sporthalle Hohe Weide. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-2-1500-11@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-92690504a13daba5@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261125T150000
 DTEND;TZID=Europe/Berlin:20261125T160000
 RRULE:FREQ=WEEKLY
@@ -132,8 +134,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Große Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-2-1500-12@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-d484b547149b5c32@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261125T150000
 DTEND;TZID=Europe/Berlin:20261125T160000
 RRULE:FREQ=WEEKLY
@@ -142,8 +144,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-2-1600-13@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-94bf91e0c8f2b2c0@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261125T160000
 DTEND;TZID=Europe/Berlin:20261125T170000
 RRULE:FREQ=WEEKLY
@@ -152,8 +154,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Große Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-2-1600-14@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-3e9fe2b9c9df01cb@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261125T160000
 DTEND;TZID=Europe/Berlin:20261125T170000
 RRULE:FREQ=WEEKLY
@@ -162,8 +164,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-3-1500-15@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-897d0d4fcb05477c@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261126T150000
 DTEND;TZID=Europe/Berlin:20261126T160000
 RRULE:FREQ=WEEKLY
@@ -172,8 +174,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-3-1600-16@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-afe11797d4296b01@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261126T160000
 DTEND;TZID=Europe/Berlin:20261126T170000
 RRULE:FREQ=WEEKLY
@@ -182,8 +184,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-4-0930-17@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-f1f01632bcfe61a1@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261127T093000
 DTEND;TZID=Europe/Berlin:20261127T104500
 RRULE:FREQ=WEEKLY
@@ -192,8 +194,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-4-1500-18@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-489dc4a780e76a29@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261127T150000
 DTEND;TZID=Europe/Berlin:20261127T160000
 RRULE:FREQ=WEEKLY
@@ -202,8 +204,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-4-1600-19@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-8907578ce0cfbe4e@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261127T160000
 DTEND;TZID=Europe/Berlin:20261127T170000
 RRULE:FREQ=WEEKLY
@@ -212,8 +214,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-5-0900-20@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-f804d48686d9eab2@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261128T090000
 DTEND;TZID=Europe/Berlin:20261128T100000
 RRULE:FREQ=WEEKLY
@@ -222,8 +224,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-5-1000-21@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-da963b95e87e92bd@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261128T100000
 DTEND;TZID=Europe/Berlin:20261128T110000
 RRULE:FREQ=WEEKLY
@@ -232,8 +234,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-5-1100-22@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-f8632eb8d3b4124f@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261128T110000
 DTEND;TZID=Europe/Berlin:20261128T120000
 RRULE:FREQ=WEEKLY
@@ -242,8 +244,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-6-0900-23@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-92319994cbfd77a8@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261129T090000
 DTEND;TZID=Europe/Berlin:20261129T100000
 RRULE:FREQ=WEEKLY
@@ -252,8 +254,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-6-0900-24@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-fca4e20b7d12130f@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261129T090000
 DTEND;TZID=Europe/Berlin:20261129T100000
 RRULE:FREQ=WEEKLY
@@ -262,8 +264,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-6-1000-25@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-deb83c15eabe73a2@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261129T100000
 DTEND;TZID=Europe/Berlin:20261129T110000
 RRULE:FREQ=WEEKLY
@@ -272,8 +274,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-6-1000-26@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-2d56117f338d90eb@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261129T100000
 DTEND;TZID=Europe/Berlin:20261129T110000
 RRULE:FREQ=WEEKLY
@@ -282,8 +284,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-6-1100-27@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-c1c4adee1f16bb19@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261129T110000
 DTEND;TZID=Europe/Berlin:20261129T120000
 RRULE:FREQ=WEEKLY
@@ -292,8 +294,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-6-1100-28@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-dad2f301d781a501@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261129T110000
 DTEND;TZID=Europe/Berlin:20261129T120000
 RRULE:FREQ=WEEKLY
@@ -302,8 +304,8 @@ LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
 DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
 END:VEVENT
 BEGIN:VEVENT
-UID:etv-2-6-1430-29@wochenplan
-DTSTAMP:20261121T190000Z
+UID:etv-de9c73b0c8e2532f@kids-etv-kalender
+DTSTAMP:20261121T230856Z
 DTSTART;TZID=Europe/Berlin:20261129T143000
 DTEND;TZID=Europe/Berlin:20261129T151500
 RRULE:FREQ=WEEKLY
