@@ -1,0 +1,384 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ETV Wochenplan//DE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:ETV Kurse 6 Jahre
+X-WR-TIMEZONE:Europe/Berlin
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:etv-6-0-1500-1@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261123T150000
+DTEND;TZID=Europe/Berlin:20261123T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Kinderturnen (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Große Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-0-1500-2@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261123T150000
+DTEND;TZID=Europe/Berlin:20261123T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 1. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-0-1500-3@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261123T150000
+DTEND;TZID=Europe/Berlin:20261123T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Breaking (5–7 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 2. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-0-1600-4@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261123T160000
+DTEND;TZID=Europe/Berlin:20261123T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Kinderturnen (6–8 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Große Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-0-1600-5@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261123T160000
+DTEND;TZID=Europe/Berlin:20261123T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (6–8 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 1. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-0-1600-6@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261123T160000
+DTEND;TZID=Europe/Berlin:20261123T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Hip-Hop/Modern Dance (6–10 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 4. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-0-1600-7@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261123T160000
+DTEND;TZID=Europe/Berlin:20261123T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Kindertanz (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 3. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-1-1500-8@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261124T150000
+DTEND;TZID=Europe/Berlin:20261124T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Hip-Hop/Streetdance (6–9 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 2. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-1-1500-9@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261124T150000
+DTEND;TZID=Europe/Berlin:20261124T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Hip-Hop (4–6 J.)
+LOCATION:Sporthalle Hohe Weide\, Hohe Weide 17a\, 20259 Hamburg
+DESCRIPTION:Raum: Sporthalle Hohe Weide\, Gymnastikraum A. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-1-1500-10@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261124T150000
+DTEND;TZID=Europe/Berlin:20261124T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 1. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-1-1515-11@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261124T151500
+DTEND;TZID=Europe/Berlin:20261124T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Kindertanz (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 5. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-1-1600-12@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261124T160000
+DTEND;TZID=Europe/Berlin:20261124T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballbinis (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Kleine Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-1-1600-13@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261124T160000
+DTEND;TZID=Europe/Berlin:20261124T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Hip-Hop (6–9 J.)
+LOCATION:Sporthalle Hohe Weide\, Hohe Weide 17a\, 20259 Hamburg
+DESCRIPTION:Raum: Sporthalle Hohe Weide\, Gymnastikraum A. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-1-1600-14@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261124T160000
+DTEND;TZID=Europe/Berlin:20261124T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 1. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-1-1700-15@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261124T170000
+DTEND;TZID=Europe/Berlin:20261124T180000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (6–8 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 1. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1500-16@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T150000
+DTEND;TZID=Europe/Berlin:20261125T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Contemporary Dance (6–8 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 2. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1500-17@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T150000
+DTEND;TZID=Europe/Berlin:20261125T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Musical Dance (5–7 J.)
+LOCATION:Sporthalle Hohe Weide\, Hohe Weide 17a\, 20259 Hamburg
+DESCRIPTION:Raum: Sporthalle Hohe Weide\, Gymnastikraum A. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1530-18@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T153000
+DTEND;TZID=Europe/Berlin:20261125T163000
+RRULE:FREQ=WEEKLY
+SUMMARY:Frischluft-Ballbinis (4–6 J.)
+LOCATION:ETV Sportplätze\, Bundesstraße 103\, 20144 Hamburg
+DESCRIPTION:Raum: Sportplatz (draußen). Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1600-19@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T160000
+DTEND;TZID=Europe/Berlin:20261125T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Kinderyoga (5–9 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1600-20@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T160000
+DTEND;TZID=Europe/Berlin:20261125T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Laufen\, Springen\, Werfen (6–9 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Kleine Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1600-21@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T160000
+DTEND;TZID=Europe/Berlin:20261125T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 1. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1600-22@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T160000
+DTEND;TZID=Europe/Berlin:20261125T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (6–8 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 2. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1600-23@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T160000
+DTEND;TZID=Europe/Berlin:20261125T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Latein & Standard (6–14 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Club Céronne Saal. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1700-24@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T170000
+DTEND;TZID=Europe/Berlin:20261125T180000
+RRULE:FREQ=WEEKLY
+SUMMARY:Eltern-Kind-Yoga (5–9 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1700-25@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T170000
+DTEND;TZID=Europe/Berlin:20261125T183000
+RRULE:FREQ=WEEKLY
+SUMMARY:Inline-Skating (4–8 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-2-1700-26@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261125T170000
+DTEND;TZID=Europe/Berlin:20261125T180000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (6–8 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 1. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-3-1500-27@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261126T150000
+DTEND;TZID=Europe/Berlin:20261126T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Hobby Horsing (5–16 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 2. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-3-1500-28@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261126T150000
+DTEND;TZID=Europe/Berlin:20261126T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 1. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-3-1530-29@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261126T153000
+DTEND;TZID=Europe/Berlin:20261126T163000
+RRULE:FREQ=WEEKLY
+SUMMARY:Inline-Skating (4–7 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Untere Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-3-1600-30@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261126T160000
+DTEND;TZID=Europe/Berlin:20261126T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (6–8 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 1. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-4-1500-31@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261127T150000
+DTEND;TZID=Europe/Berlin:20261127T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Kinderturnen (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Große Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-4-1500-32@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261127T150000
+DTEND;TZID=Europe/Berlin:20261127T160000
+RRULE:FREQ=WEEKLY
+SUMMARY:Kinderyoga (5–9 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 3. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-4-1545-33@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261127T154500
+DTEND;TZID=Europe/Berlin:20261127T163000
+RRULE:FREQ=WEEKLY
+SUMMARY:Kindertanz (inklusiv) (5–7 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 2. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-4-1600-34@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261127T160000
+DTEND;TZID=Europe/Berlin:20261127T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Kinderturnen (6–10 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Große Halle. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-4-1600-35@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261127T160000
+DTEND;TZID=Europe/Berlin:20261127T170000
+RRULE:FREQ=WEEKLY
+SUMMARY:Ballett (4–6 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Gymnastikraum 1. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+BEGIN:VEVENT
+UID:etv-6-4-1700-36@wochenplan
+DTSTAMP:20261121T190000Z
+DTSTART;TZID=Europe/Berlin:20261127T170000
+DTEND;TZID=Europe/Berlin:20261127T180000
+RRULE:FREQ=WEEKLY
+SUMMARY:Latein (6–14 J.)
+LOCATION:ETV Sportzentrum Bundesstraße\, Bundesstraße 96\, 20144 Hamburg
+DESCRIPTION:Raum: Club Céronne Saal. ETV Dance\, ggf. Sonderbeitrag. Anmeldung über die ETV-App ab 48 Std. vor Kursbeginn. Nicht in den Schulferien.
+END:VEVENT
+END:VCALENDAR
