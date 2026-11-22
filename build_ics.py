@@ -52,9 +52,12 @@ def main() -> None:
                     rname = "Sporthalle Hohe Weide" + (", Gymnastikraum A" if k["art"] == "T" else "")
                 elif raum == "SP":
                     loc, rname = "ETV Sportplätze, Bundesstraße 103, 20144 Hamburg", "Sportplatz (draußen)"
+                elif raum == "":
+                    loc, rname = BUNDES, "siehe ETV-App"
                 else:
                     loc, rname = BUNDES, ROOM.get(raum, raum)
-                extra = "ETV Dance, ggf. Sonderbeitrag. " if k["art"] == "T" else ""
+                extra = {"T": "ETV Dance, ggf. Sonderbeitrag. ",
+                         "A": "Eigene Abteilung, Anmeldung und Beitrag ggf. abweichend. "}.get(k["art"], "")
                 if k.get("unsicher"):
                     extra = "Wochentag unsicher, bitte in der ETV-App prüfen. " + extra
                 key = f"{kind}|{tag['tag']}|{k['start']}|{k['kurs']}|{raum}"

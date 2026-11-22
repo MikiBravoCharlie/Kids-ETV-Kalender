@@ -10,8 +10,8 @@ Antworten auf Deutsch, keine Gedankenstriche als Einschub.
 - Abo-Links:
   - https://raw.githubusercontent.com/MikiBravoCharlie/kids-etv-kalender/main/ETV-Kurse-2-Jahre.ics
   - https://raw.githubusercontent.com/MikiBravoCharlie/kids-etv-kalender/main/ETV-Kurse-6-Jahre.ics
-- Einzige Datenquelle: `kurse.json`. Tage Montag bis Sonntag, je Kurs: `start`, `ende`, `kurs`, `alter`, `raum`, `kind` (2 oder 6), `art` (S = Kindersport, T = Tanz).
-- Räume: `HW` = Sporthalle Hohe Weide 17a, `SP` = Sportplatz Bundesstraße 103, alle anderen Kürzel = Sportzentrum Bundesstraße 96 (UH Untere Halle, GH Große Halle, KH Kleine Halle, Gym I bis V Gymnastikräume, CC Club Céronne Saal).
+- Einzige Datenquelle: `kurse.json`. Tage Montag bis Sonntag, je Kurs: `start`, `ende`, `kurs`, `alter`, `raum`, `kind` (2 oder 6), `art` (S = Kindersport, T = Tanz, A = andere Abteilung wie Judo oder Karate).
+- Räume: `HW` = Sporthalle Hohe Weide 17a, `SP` = Sportplatz Bundesstraße 103, leer = Raum unbekannt, alle anderen Kürzel = Sportzentrum Bundesstraße 96 (UH Untere Halle, GH Große Halle, KH Kleine Halle, Gym I bis V Gymnastikräume, CC Club Céronne Saal).
 - `build_ics.py` erzeugt beide .ics-Dateien aus `kurse.json`. Die UIDs sind stabil, damit Abos Termine aktualisieren statt doppeln.
 - Quellen und Regeln für aktuelle Daten: Abschnitt „Regeln für aktuelle Daten“. Die Wochentage sind in den ETV-PDFs unsauber beschriftet; Kurse mit `"unsicher": true` in der ETV-App prüfen lassen.
 
@@ -37,7 +37,8 @@ Aktuell verwendete Pläne (stehen auch unter `quellen` in `kurse.json`, Stand si
 
 Diese Regeln gelten für die Prüfung und für jeden Neuaufbau von `kurse.json`. Hintergrund: Am Anfang wurde `kurse.json` aus dem ersten Suchtreffer gebaut, einem Plan „gültig ab Januar 2026“, obwohl längst ein Plan „gültig ab August 2026“ online war.
 
-1. **Einstieg sind immer die offiziellen Programmseiten, nicht die Websuche.** Der dort verlinkte Plan ist der aktuelle:
+0. **Maßgeblich ist der ETV-Mitgliederbereich (Clubity), nicht die PDFs.** Dort wird tatsächlich gebucht. Zugang nur mit Mirkos Anmeldung im Browser der Claude-Desktop-App: https://www.clubity.com/app/?organizationId=9, dann „Angebot“. Filter Alter (2 bzw. 6) und Orte „Sportzentrum Bundesstraße“, „Sporthalle Hohe Weide“, „Bundesstraße 103“ setzen und eine volle Woche über „Weitere Termine anzeigen“ laden. Nur lesen, nie buchen oder Konto-Einstellungen ändern. Zugangsdaten gibt Mirko selbst ein. Letzter vollständiger Abgleich steht in `kurse.json` unter `geprueft`. Die geplanten Prüfungen laufen in der Cloud ohne diesen Zugang und nutzen deshalb die Programmseiten unten; findet eine Prüfung Abweichungen, wird vor dem Übernehmen in Clubity gegengeprüft, sofern der Mac verbunden ist.
+1. **Einstieg für die PDFs sind immer die offiziellen Programmseiten, nicht die Websuche.** Der dort verlinkte Plan ist der aktuelle:
    - Kindersport: https://www.etv-hamburg.de/de/sportangebot/Sportprogramme/kindersport/ (Abschnitt „Kursplan“)
    - ETV Dance: https://www.etv-hamburg.de/de/sportangebot/Sportprogramme/dance/ (Abschnitt „Dance Kursprogramm“)
    Suchtreffer können alte Fassungen, Schulkooperationen oder Ferienhefte sein. Die Websuche nur nutzen, wenn eine Programmseite nicht erreichbar ist, und das dann melden.

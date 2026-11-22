@@ -3,9 +3,10 @@
  "quellen": {
   "kindersport": "https://www.etv-hamburg.de/_cache/downloads/7270-9140c03c95/cms/Verein/Kindersport/RZ_KINDERSPORTPROGRAMM-2026_Juli-1-1.pdf",
   "dance": "https://www.etv-hamburg.de/_cache/downloads/7100-368fa00184/cms/Abteilungen/ETV-Dance/Downloads/RZ_DANCE_Kursprogramm-2026_Mai.pdf",
-  "dance_wochentage": "https://etv.athletx.de/ausgabe/fitgym/static.php?hash=dj768s7d6fsdfbssdv887sdvs&schwerpunkt=Screen-Dance-BU"
+  "dance_wochentage": "https://etv.athletx.de/ausgabe/fitgym/static.php?hash=dj768s7d6fsdfbssdv887sdvs&schwerpunkt=Screen-Dance-BU",
+  "clubity": "https://www.clubity.com/app/de/offerings (Login erforderlich; Filter Alter und Ort)"
  },
- "hinweis": "Felder: start, ende, kurs, alter, raum, kind (2 oder 6), art (S=Kindersport, T=Tanz), optional unsicher=true. Wochentage Tanz aus der athletx-Kursübersicht, Altersangaben aus dem Dance-PDF. Wochentage Kindersport aus der Blockreihenfolge im PDF, abgeglichen mit den Ferienheften 2026.",
+ "hinweis": "Felder: start, ende, kurs, alter, raum, kind (2 oder 6), art (S=Kindersport, T=Tanz, A=andere Abteilung wie Judo oder Karate), optional unsicher=true. Wochentage Tanz aus der athletx-Kursübersicht, Altersangaben aus dem Dance-PDF. Wochentage Kindersport aus der Blockreihenfolge im PDF, abgeglichen mit den Ferienheften 2026. Leerer Raum = Raum nicht bekannt, siehe ETV-App.",
  "wochenstart": "2026-11-23",
  "tage": [
   {
@@ -23,15 +24,6 @@
     {
      "start": "15:00",
      "ende": "16:00",
-     "kurs": "Kinderturnen",
-     "alter": "4–6 J.",
-     "raum": "GH",
-     "kind": 6,
-     "art": "S"
-    },
-    {
-     "start": "15:00",
-     "ende": "16:00",
      "kurs": "Ballett",
      "alter": "4–6 J.",
      "raum": "Gym I",
@@ -42,15 +34,33 @@
      "start": "15:00",
      "ende": "16:00",
      "kurs": "Breaking",
-     "alter": "5–7 J.",
+     "alter": "5–8 J.",
      "raum": "Gym II",
      "kind": 6,
      "art": "T"
     },
     {
+     "start": "15:00",
+     "ende": "16:00",
+     "kurs": "Kinderturnen",
+     "alter": "4–6 J.",
+     "raum": "GH",
+     "kind": 6,
+     "art": "S"
+    },
+    {
+     "start": "15:00",
+     "ende": "16:00",
+     "kurs": "Mini-Judo",
+     "alter": "6–7 J.",
+     "raum": "",
+     "kind": 6,
+     "art": "A"
+    },
+    {
      "start": "15:15",
      "ende": "16:00",
-     "kurs": "Musikalische Früherziehung mit Eltern",
+     "kurs": "Musikalische Früherziehung Mini",
      "alter": "1–2 J.",
      "raum": "HW",
      "kind": 2,
@@ -63,15 +73,6 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
-    },
-    {
-     "start": "16:00",
-     "ende": "17:00",
-     "kurs": "Kinderturnen",
-     "alter": "6–8 J.",
-     "raum": "GH",
-     "kind": 6,
      "art": "S"
     },
     {
@@ -100,6 +101,15 @@
      "raum": "Gym III",
      "kind": 6,
      "art": "T"
+    },
+    {
+     "start": "16:00",
+     "ende": "17:00",
+     "kurs": "Kinderturnen",
+     "alter": "6–8 J.",
+     "raum": "GH",
+     "kind": 6,
+     "art": "S"
     },
     {
      "start": "17:00",
@@ -136,6 +146,15 @@
     {
      "start": "15:00",
      "ende": "16:00",
+     "kurs": "Eimsbüttelinis",
+     "alter": "10 Mon.–2 J.",
+     "raum": "Gym III",
+     "kind": 2,
+     "art": "S"
+    },
+    {
+     "start": "15:00",
+     "ende": "16:00",
      "kurs": "Eltern-Kind-Turnen",
      "alter": "2–4 J.",
      "raum": "GH",
@@ -145,11 +164,20 @@
     {
      "start": "15:00",
      "ende": "16:00",
-     "kurs": "Eimsbüttelinis",
-     "alter": "10 Mon.–2 J.",
-     "raum": "Gym III",
-     "kind": 2,
-     "art": "S"
+     "kurs": "Floor Dance",
+     "alter": "5–8 J.",
+     "raum": "",
+     "kind": 6,
+     "art": "T"
+    },
+    {
+     "start": "15:00",
+     "ende": "16:00",
+     "kurs": "Hip-Hop",
+     "alter": "4–6 J.",
+     "raum": "HW",
+     "kind": 6,
+     "art": "T"
     },
     {
      "start": "15:00",
@@ -161,31 +189,13 @@
      "art": "T"
     },
     {
-     "start": "15:00",
-     "ende": "16:00",
-     "kurs": "Ballett",
-     "alter": "4–6 J.",
-     "raum": "Gym I",
-     "kind": 6,
-     "art": "T"
-    },
-    {
-     "start": "15:00",
-     "ende": "16:00",
-     "kurs": "Jazz Moves / Hip-Hop",
-     "alter": "4–6 J.",
-     "raum": "HW",
-     "kind": 6,
-     "art": "T"
-    },
-    {
-     "start": "15:15",
-     "ende": "16:00",
-     "kurs": "Kindertanz",
-     "alter": "4–6 J.",
-     "raum": "Gym V",
-     "kind": 6,
-     "art": "T"
+     "start": "16:00",
+     "ende": "17:00",
+     "kurs": "Eimsbüttelinis",
+     "alter": "10 Mon.–2 J.",
+     "raum": "Gym III",
+     "kind": 2,
+     "art": "S"
     },
     {
      "start": "16:00",
@@ -193,15 +203,6 @@
      "kurs": "Eltern-Kind-Turnen",
      "alter": "2–4 J.",
      "raum": "GH",
-     "kind": 2,
-     "art": "S"
-    },
-    {
-     "start": "16:00",
-     "ende": "17:00",
-     "kurs": "Eimsbüttelinis",
-     "alter": "10 Mon.–2 J.",
-     "raum": "Gym III",
      "kind": 2,
      "art": "S"
     },
@@ -235,7 +236,7 @@
     {
      "start": "16:00",
      "ende": "17:00",
-     "kurs": "Jazz Moves / Hip-Hop",
+     "kurs": "Hip-Hop",
      "alter": "6–9 J.",
      "raum": "HW",
      "kind": 6,
@@ -254,10 +255,19 @@
      "start": "17:00",
      "ende": "18:00",
      "kurs": "Ballett",
-     "alter": "6–8 J.",
+     "alter": "6–9 J.",
      "raum": "Gym I",
      "kind": 6,
      "art": "T"
+    },
+    {
+     "start": "17:00",
+     "ende": "18:00",
+     "kurs": "Karate Anfänger",
+     "alter": "6–14 J.",
+     "raum": "HW",
+     "kind": 6,
+     "art": "A"
     }
    ]
   },
@@ -281,6 +291,15 @@
      "raum": "UH",
      "kind": 2,
      "art": "S"
+    },
+    {
+     "start": "15:00",
+     "ende": "16:00",
+     "kurs": "Dancestyle / K-Pop",
+     "alter": "6–9 J.",
+     "raum": "HW",
+     "kind": 6,
+     "art": "T"
     },
     {
      "start": "15:15",
@@ -321,24 +340,6 @@
     {
      "start": "16:00",
      "ende": "17:00",
-     "kurs": "Kinderyoga",
-     "alter": "5–9 J.",
-     "raum": "Gym III",
-     "kind": 6,
-     "art": "S"
-    },
-    {
-     "start": "16:00",
-     "ende": "17:00",
-     "kurs": "Laufen, Springen, Werfen",
-     "alter": "6–9 J.",
-     "raum": "KH",
-     "kind": 6,
-     "art": "S"
-    },
-    {
-     "start": "16:00",
-     "ende": "17:00",
      "kurs": "Ballett",
      "alter": "4–6 J.",
      "raum": "Gym I",
@@ -349,7 +350,7 @@
      "start": "16:00",
      "ende": "17:00",
      "kurs": "Ballett",
-     "alter": "6–8 J.",
+     "alter": "6–9 J.",
      "raum": "Gym II",
      "kind": 6,
      "art": "T"
@@ -357,12 +358,38 @@
     {
      "start": "16:00",
      "ende": "17:00",
-     "kurs": "Latein & Standard",
-     "alter": "6–14 J.",
+     "kurs": "Bewegungsspiele",
+     "alter": "6–9 J.",
+     "raum": "KH",
+     "kind": 6,
+     "art": "S"
+    },
+    {
+     "start": "16:00",
+     "ende": "17:00",
+     "kurs": "Kinderyoga",
+     "alter": "5–9 J.",
+     "raum": "Gym III",
+     "kind": 6,
+     "art": "S"
+    },
+    {
+     "start": "16:00",
+     "ende": "17:00",
+     "kurs": "Mini-Judo",
+     "alter": "6–7 J.",
+     "raum": "",
+     "kind": 6,
+     "art": "A"
+    },
+    {
+     "start": "16:00",
+     "ende": "17:00",
+     "kurs": "Tanzsport Standard & Latein",
+     "alter": "ab 6 J.",
      "raum": "CC",
      "kind": 6,
-     "art": "T",
-     "unsicher": true
+     "art": "T"
     },
     {
      "start": "17:00",
@@ -372,15 +399,6 @@
      "raum": "UH",
      "kind": 6,
      "art": "S"
-    },
-    {
-     "start": "17:00",
-     "ende": "18:00",
-     "kurs": "Ballett",
-     "alter": "6–8 J.",
-     "raum": "Gym I",
-     "kind": 6,
-     "art": "T"
     }
    ]
   },
@@ -399,15 +417,6 @@
     {
      "start": "15:00",
      "ende": "16:00",
-     "kurs": "Hobby Horsing",
-     "alter": "ab 4 J.",
-     "raum": "Gym II",
-     "kind": 6,
-     "art": "S"
-    },
-    {
-     "start": "15:00",
-     "ende": "16:00",
      "kurs": "Ballett",
      "alter": "4–6 J.",
      "raum": "Gym I",
@@ -415,10 +424,19 @@
      "art": "T"
     },
     {
+     "start": "15:00",
+     "ende": "16:00",
+     "kurs": "Hobby Horsing",
+     "alter": "4–12 J.",
+     "raum": "Gym II",
+     "kind": 6,
+     "art": "S"
+    },
+    {
      "start": "15:30",
      "ende": "16:30",
      "kurs": "Inline-Skating",
-     "alter": "4–8 J.",
+     "alter": "4–10 J.",
      "raum": "UH",
      "kind": 6,
      "art": "S"
@@ -436,10 +454,28 @@
      "start": "16:00",
      "ende": "17:00",
      "kurs": "Ballett",
-     "alter": "6–8 J.",
+     "alter": "5–9 J.",
      "raum": "Gym I",
      "kind": 6,
      "art": "T"
+    },
+    {
+     "start": "16:00",
+     "ende": "17:00",
+     "kurs": "Mini-Judo",
+     "alter": "6–7 J.",
+     "raum": "",
+     "kind": 6,
+     "art": "A"
+    },
+    {
+     "start": "17:00",
+     "ende": "18:00",
+     "kurs": "Karate Anfänger",
+     "alter": "6–14 J.",
+     "raum": "HW",
+     "kind": 6,
+     "art": "A"
     }
    ]
   },
@@ -477,7 +513,7 @@
      "start": "15:00",
      "ende": "16:00",
      "kurs": "Kinderyoga",
-     "alter": "5–9 J.",
+     "alter": "5–10 J.",
      "raum": "Gym III",
      "kind": 6,
      "art": "S"
@@ -494,6 +530,24 @@
     {
      "start": "16:00",
      "ende": "17:00",
+     "kurs": "Ballett",
+     "alter": "6–8 J.",
+     "raum": "Gym I",
+     "kind": 6,
+     "art": "T"
+    },
+    {
+     "start": "16:00",
+     "ende": "17:00",
+     "kurs": "Judo U9 & U11",
+     "alter": "6–10 J.",
+     "raum": "",
+     "kind": 6,
+     "art": "A"
+    },
+    {
+     "start": "16:00",
+     "ende": "17:00",
      "kurs": "Kinderturnen",
      "alter": "6–10 J.",
      "raum": "GH",
@@ -501,32 +555,22 @@
      "art": "S"
     },
     {
-     "start": "16:00",
-     "ende": "17:00",
-     "kurs": "Ballett",
-     "alter": "4–6 J.",
-     "raum": "Gym I",
+     "start": "17:00",
+     "ende": "18:00",
+     "kurs": "Karate Anfänger",
+     "alter": "6–14 J.",
+     "raum": "HW",
      "kind": 6,
-     "art": "T"
+     "art": "A"
     },
     {
      "start": "17:00",
      "ende": "18:30",
      "kurs": "Skateboard Fortgeschrittene",
-     "alter": "6–13 J.",
+     "alter": "6–15 J.",
      "raum": "UH",
      "kind": 6,
      "art": "S"
-    },
-    {
-     "start": "17:00",
-     "ende": "18:00",
-     "kurs": "Latein",
-     "alter": "6–14 J.",
-     "raum": "CC",
-     "kind": 6,
-     "art": "T",
-     "unsicher": true
     }
    ]
   },
@@ -568,24 +612,15 @@
     {
      "start": "09:00",
      "ende": "10:00",
-     "kurs": "Weekend-Kids",
-     "alter": "2–4 J.",
-     "raum": "UH",
+     "kurs": "Weekend-Eimsbüttelinis",
+     "alter": "10 Mon.–2 J.",
+     "raum": "Gym III",
      "kind": 2,
      "art": "S"
     },
     {
      "start": "09:00",
      "ende": "10:00",
-     "kurs": "Weekend-Eimsbüttelinis",
-     "alter": "10 Mon.–2 J.",
-     "raum": "Gym III",
-     "kind": 2,
-     "art": "S"
-    },
-    {
-     "start": "10:00",
-     "ende": "11:00",
      "kurs": "Weekend-Kids",
      "alter": "2–4 J.",
      "raum": "UH",
@@ -602,8 +637,8 @@
      "art": "S"
     },
     {
-     "start": "11:00",
-     "ende": "12:00",
+     "start": "10:00",
+     "ende": "11:00",
      "kurs": "Weekend-Kids",
      "alter": "2–4 J.",
      "raum": "UH",
@@ -616,6 +651,15 @@
      "kurs": "Weekend-Eimsbüttelinis",
      "alter": "10 Mon.–2 J.",
      "raum": "Gym III",
+     "kind": 2,
+     "art": "S"
+    },
+    {
+     "start": "11:00",
+     "ende": "12:00",
+     "kurs": "Weekend-Kids",
+     "alter": "2–4 J.",
+     "raum": "UH",
      "kind": 2,
      "art": "S"
     },
@@ -630,5 +674,6 @@
     }
    ]
   }
- ]
+ ],
+ "geprueft": "2026-11-22: alle Kurse im ETV-Mitgliederbereich (Clubity, Angebote, Filter Alter 2 bzw. 6, Orte Sportzentrum Bundesstraße, Sporthalle Hohe Weide, Bundesstraße 103) für die Woche 23.–29.11.2026 abgeglichen."
 }
