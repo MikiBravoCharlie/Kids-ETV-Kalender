@@ -201,7 +201,7 @@
      "start": "15:00",
      "ende": "16:00",
      "kurs": "Hip-Hop/Streetdance",
-     "alter": "6–9 J.",
+     "alter": "6–10 J.",
      "raum": "Gym II",
      "kind": 6,
      "art": "T",
@@ -586,7 +586,7 @@
      "start": "16:00",
      "ende": "17:00",
      "kurs": "Ballett",
-     "alter": "6–8 J.",
+     "alter": "5–8 J.",
      "raum": "Gym I",
      "kind": 6,
      "art": "T",
@@ -746,5 +746,5 @@
   }
  ],
  "geprueft": "2026-11-22: alle Kurse im ETV-Mitgliederbereich (Clubity, Angebote, Filter Alter 2 bzw. 6, Orte Sportzentrum Bundesstraße, Sporthalle Hohe Weide, Bundesstraße 103) für die Woche 23.–29.11.2026 abgeglichen.",
- "geprueft_am": "2026-11-14"
+ "geprueft_am": "2026-11-22"
 }
