@@ -6,7 +6,7 @@ Antworten auf Deutsch, keine Gedankenstriche als Einschub.
 
 ## Fakten
 
-- Repo: `MikiBravoCharlie/kids-etv-kalender`, Branch `main`
+- Repo: `MikiBravoCharlie/Kids-ETV-Kalender`, Branch `main` (GitHub unterscheidet bei Repo-Namen nicht nach Groß- und Kleinschreibung; die Abo-Links bleiben bewusst klein geschrieben, damit niemand neu abonnieren muss)
 - Abo-Links:
   - https://raw.githubusercontent.com/MikiBravoCharlie/kids-etv-kalender/main/ETV-Kurse-2-Jahre.ics
   - https://raw.githubusercontent.com/MikiBravoCharlie/kids-etv-kalender/main/ETV-Kurse-6-Jahre.ics
@@ -28,7 +28,7 @@ Antworten auf Deutsch, keine Gedankenstriche als Einschub.
 
 Ziel: mindestens einmal pro Woche ein erfolgreicher Abgleich der Kurse in `kurse.json` mit dem ETV-Mitgliederbereich. Eine geplante Aufgabe in Mirkos Konto versucht es jeden Abend auf seinem Mac, weil nur dort der Browser der Claude-App mit seiner Clubity-Anmeldung läuft. Der Mac ist nicht zu festen Zeiten an; ein ausgefallener Lauf ist normal. Mirko hat entschieden: Änderungen werden automatisch übernommen und danach gemeldet.
 
-1. **Zuerst Datum prüfen.** `geprueft_am` in `kurse.json` lesen. Liegt es weniger als 7 Tage zurück: sofort beenden, nichts melden.
+1. **Zuerst Datum prüfen.** `geprueft_am` in `kurse.json` lesen. Liegt es weniger als 7 Tage zurück: sofort beenden, nichts melden. Der Link über raw.githubusercontent.com kann bis zu etwa 5 Minuten alt sein; maßgeblich ist der Stand im geklonten Repository.
 2. **Clubity öffnen** im Browser der Claude-Desktop-App (Tools `Claude_Browser`). Direkt mit Filtern, jeweils eine volle Woche ab morgen über „Weitere Termine anzeigen“ laden:
    - 2 Jahre: https://www.clubity.com/app/de/offerings?includeCanceled=false&includePast=false&includeWaitListed=false&locationIds=6f7cea26-0c21-11ed-9436-222560b74e07&locationIds=19f44114-0c24-11ed-a86e-4217ca18cd30&locationIds=2eaa464a-0ce6-11ed-8881-222560b74e07&age=2
    - 6 Jahre: dieselbe Adresse mit `age=6`
@@ -39,7 +39,7 @@ Ziel: mindestens einmal pro Woche ein erfolgreicher Abgleich der Kurse in `kurse
    - Titel kommt nur noch an einem anderen Wochentag vor: **automatisch verschieben**
    - geänderte Altersangabe: **automatisch anpassen**
    - Titel in dieser Woche gar nicht vorhanden: **nicht löschen** (kann ein einzelner Ausfall sein), nur melden. Fehlt derselbe Kurs zwei Abgleiche in Folge, im Bericht ausdrücklich empfehlen, ihn zu entfernen.
-   - neues Angebot in Clubity, das nicht in `kurse.json` steht: **nicht hinzufügen**, nur melden. Ausnahme Sportarten ohne Kinderbezug (Badminton, Tennis, Kindergeburtstage, Freies Bouldern, Prüfungen) ignorieren.
+   - neues Angebot in Clubity, das nicht in `kurse.json` steht: **nicht hinzufügen**, nur melden. Nicht melden: Titel aus der Liste `ignoriert` in `kurse.json` (bewusst ausgeschlossen, meist Fortgeschrittene) sowie Angebote ohne Kinderbezug (Badminton, Tennis, Kindergeburtstage, Freies Bouldern, Prüfungen).
    - Einträge mit Status „gebucht“ in der Meldung erwähnen, nichts daran ändern.
    - Kurse, die in der geladenen Woche als abgesagt erscheinen, in der Meldung als Ausfall mit Datum nennen.
 5. **Speichern.** `geprueft_am` auf das heutige Datum setzen, `python3 build_ics.py`, Commit („Clubity-Abgleich: …“) und Push nach `main`. Nur lesen in Clubity: nie buchen, stornieren, auf Wartelisten setzen oder Einstellungen ändern.

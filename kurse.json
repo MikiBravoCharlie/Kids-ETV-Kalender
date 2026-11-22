@@ -746,5 +746,14 @@
   }
  ],
  "geprueft": "2026-11-22: alle Kurse im ETV-Mitgliederbereich (Clubity, Angebote, Filter Alter 2 bzw. 6, Orte Sportzentrum Bundesstraße, Sporthalle Hohe Weide, Bundesstraße 103) für die Woche 23.–29.11.2026 abgeglichen.",
- "geprueft_am": "2026-11-22"
+ "geprueft_am": "2026-11-22",
+ "ignoriert": [
+  "Judo U9, U11 Löwentraining (Fortgeschrittene)",
+  "Judo Jugend ID-Judo",
+  "Karate Fitness",
+  "Hobby Horsing Fortgeschritten",
+  "Karate Mittelstufe",
+  "Parakarate",
+  "Karate Gurtprüfungen vom 9. bis 1. Kyu"
+ ]
 }
