@@ -6,7 +6,7 @@
   "dance_wochentage": "https://etv.athletx.de/ausgabe/fitgym/static.php?hash=dj768s7d6fsdfbssdv887sdvs&schwerpunkt=Screen-Dance-BU",
   "clubity": "https://www.clubity.com/app/de/offerings (Login erforderlich; Filter Alter und Ort)"
  },
- "hinweis": "Felder: start, ende, kurs, alter, raum, kind (2 oder 6), art (S=Kindersport, T=Tanz, A=andere Abteilung wie Judo oder Karate), optional unsicher=true. Wochentage Tanz aus der athletx-Kursübersicht, Altersangaben aus dem Dance-PDF. Wochentage Kindersport aus der Blockreihenfolge im PDF, abgeglichen mit den Ferienheften 2026. Leerer Raum = Raum nicht bekannt, siehe ETV-App.",
+ "hinweis": "Felder: start, ende, kurs, alter, raum, kind (2 oder 6), art (S=Kindersport, T=Tanz, A=andere Abteilung wie Judo oder Karate), optional unsicher=true. Wochentage Tanz aus der athletx-Kursübersicht, Altersangaben aus dem Dance-PDF. Wochentage Kindersport aus der Blockreihenfolge im PDF, abgeglichen mit den Ferienheften 2026. Leerer Raum = Raum nicht bekannt, siehe ETV-App. Feld clubity = exakter Angebotstitel im ETV-Mitgliederbereich, Schlüssel für den Abgleich zusammen mit Wochentag und Startzeit.",
  "wochenstart": "2026-11-23",
  "tage": [
   {
@@ -19,7 +19,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eltern-Kind-Turnen 2-4 Jahre"
     },
     {
      "start": "15:00",
@@ -28,7 +29,8 @@
      "alter": "4–6 J.",
      "raum": "Gym I",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Ballett 4-6 Jahre"
     },
     {
      "start": "15:00",
@@ -37,7 +39,8 @@
      "alter": "5–8 J.",
      "raum": "Gym II",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Breaking ab 5-7 Jahre"
     },
     {
      "start": "15:00",
@@ -46,7 +49,8 @@
      "alter": "4–6 J.",
      "raum": "GH",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Kinderturnen 4-6 Jahre"
     },
     {
      "start": "15:00",
@@ -55,7 +59,8 @@
      "alter": "6–7 J.",
      "raum": "",
      "kind": 6,
-     "art": "A"
+     "art": "A",
+     "clubity": "Mini Judo"
     },
     {
      "start": "15:15",
@@ -64,7 +69,8 @@
      "alter": "1–2 J.",
      "raum": "HW",
      "kind": 2,
-     "art": "T"
+     "art": "T",
+     "clubity": "Musikalische Früherziehung Mini 1-2 Jahre"
     },
     {
      "start": "16:00",
@@ -73,7 +79,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eltern-Kind-Turnen 2-4 Jahre"
     },
     {
      "start": "16:00",
@@ -82,7 +89,8 @@
      "alter": "6–8 J.",
      "raum": "Gym I",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Ballett 6-8 Jahre"
     },
     {
      "start": "16:00",
@@ -91,7 +99,8 @@
      "alter": "6–10 J.",
      "raum": "Gym IV",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Hip-Hop / Modern Dance 6-10 Jahre"
     },
     {
      "start": "16:00",
@@ -100,7 +109,8 @@
      "alter": "4–6 J.",
      "raum": "Gym III",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Kindertanz 4-6 Jahre"
     },
     {
      "start": "16:00",
@@ -109,7 +119,8 @@
      "alter": "6–8 J.",
      "raum": "GH",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Kinderturnen 6-8 Jahre"
     },
     {
      "start": "17:00",
@@ -118,7 +129,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eltern-Kind-Turnen 2-4 Jahre"
     },
     {
      "start": "17:00",
@@ -127,7 +139,8 @@
      "alter": "4–6 J.",
      "raum": "HW",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Contemporary Dance 4-6 Jahre"
     }
    ]
   },
@@ -141,7 +154,8 @@
      "alter": "10 Mon.–2 J.",
      "raum": "Gym III",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eimsbüttelinis bis 2 Jahre"
     },
     {
      "start": "15:00",
@@ -150,7 +164,8 @@
      "alter": "10 Mon.–2 J.",
      "raum": "Gym III",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eimsbüttelinis bis 2 Jahre"
     },
     {
      "start": "15:00",
@@ -159,7 +174,8 @@
      "alter": "2–4 J.",
      "raum": "GH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eltern-Kind-Turnen 2-4 Jahre"
     },
     {
      "start": "15:00",
@@ -168,7 +184,8 @@
      "alter": "5–8 J.",
      "raum": "",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Floor Dance 6-8 Jahre"
     },
     {
      "start": "15:00",
@@ -177,7 +194,8 @@
      "alter": "4–6 J.",
      "raum": "HW",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Hip Hop 4-6 Jahre"
     },
     {
      "start": "15:00",
@@ -186,7 +204,8 @@
      "alter": "6–9 J.",
      "raum": "Gym II",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Hip-Hop / Streetdance 6-9 Jahre"
     },
     {
      "start": "16:00",
@@ -195,7 +214,8 @@
      "alter": "10 Mon.–2 J.",
      "raum": "Gym III",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eimsbüttelinis bis 2 Jahre"
     },
     {
      "start": "16:00",
@@ -204,7 +224,8 @@
      "alter": "2–4 J.",
      "raum": "GH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eltern-Kind-Turnen 2-4 Jahre"
     },
     {
      "start": "16:00",
@@ -213,7 +234,8 @@
      "alter": "2–3 J.",
      "raum": "CC",
      "kind": 2,
-     "art": "T"
+     "art": "T",
+     "clubity": "Tänzerische Früherziehung Mini 2-3 Jahre"
     },
     {
      "start": "16:00",
@@ -222,7 +244,8 @@
      "alter": "4–6 J.",
      "raum": "KH",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Ballbinis 4-6 Jahre"
     },
     {
      "start": "16:00",
@@ -231,7 +254,8 @@
      "alter": "4–6 J.",
      "raum": "Gym I",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Ballett 4-6 Jahre"
     },
     {
      "start": "16:00",
@@ -240,7 +264,8 @@
      "alter": "6–9 J.",
      "raum": "HW",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Hip Hop 6-9 Jahre"
     },
     {
      "start": "17:00",
@@ -249,7 +274,8 @@
      "alter": "2–4 J.",
      "raum": "HW",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eltern-Kind-Turnen 2-4 Jahre"
     },
     {
      "start": "17:00",
@@ -258,7 +284,8 @@
      "alter": "6–9 J.",
      "raum": "Gym I",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Ballett 6-8 Jahre"
     },
     {
      "start": "17:00",
@@ -267,7 +294,8 @@
      "alter": "6–14 J.",
      "raum": "HW",
      "kind": 6,
-     "art": "A"
+     "art": "A",
+     "clubity": "Karate Anfänger"
     }
    ]
   },
@@ -281,7 +309,8 @@
      "alter": "2–4 J.",
      "raum": "GH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eltern-Kind-Turnen 2-4 Jahre"
     },
     {
      "start": "15:00",
@@ -290,7 +319,8 @@
      "alter": "1–3 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Knirpse in Bewegung 1-3 Jahre"
     },
     {
      "start": "15:00",
@@ -299,7 +329,8 @@
      "alter": "6–9 J.",
      "raum": "HW",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Dancestyle / K-POP 6-9 Jahre"
     },
     {
      "start": "15:15",
@@ -308,7 +339,8 @@
      "alter": "2–3 J.",
      "raum": "Gym IV",
      "kind": 2,
-     "art": "T"
+     "art": "T",
+     "clubity": "Eltern-Kind-Tanzen 2-3 Jahre"
     },
     {
      "start": "15:30",
@@ -317,7 +349,8 @@
      "alter": "4–6 J.",
      "raum": "SP",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Frischluft Ballbinis 4-6 Jahre"
     },
     {
      "start": "16:00",
@@ -326,7 +359,8 @@
      "alter": "2–4 J.",
      "raum": "GH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eltern-Kind-Turnen 2-4 Jahre"
     },
     {
      "start": "16:00",
@@ -335,7 +369,8 @@
      "alter": "1–3 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Knirpse in Bewegung 1-3 Jahre"
     },
     {
      "start": "16:00",
@@ -344,7 +379,8 @@
      "alter": "4–6 J.",
      "raum": "Gym I",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Ballett 4-6 Jahre"
     },
     {
      "start": "16:00",
@@ -353,7 +389,8 @@
      "alter": "6–9 J.",
      "raum": "Gym II",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Ballett 6-9 Jahre"
     },
     {
      "start": "16:00",
@@ -362,7 +399,8 @@
      "alter": "6–9 J.",
      "raum": "KH",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Bewegungsspiele 6-9 Jahre"
     },
     {
      "start": "16:00",
@@ -371,7 +409,8 @@
      "alter": "5–9 J.",
      "raum": "Gym III",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Kinderyoga 5-9 Jahre"
     },
     {
      "start": "16:00",
@@ -380,7 +419,8 @@
      "alter": "6–7 J.",
      "raum": "",
      "kind": 6,
-     "art": "A"
+     "art": "A",
+     "clubity": "Mini Judo"
     },
     {
      "start": "16:00",
@@ -389,7 +429,8 @@
      "alter": "ab 6 J.",
      "raum": "CC",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Tanzsport Standard & Latein ab 6 Jahre"
     },
     {
      "start": "17:00",
@@ -398,7 +439,8 @@
      "alter": "4–8 J.",
      "raum": "UH",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Inline-Skating 4-8 Jahre"
     }
    ]
   },
@@ -412,7 +454,8 @@
      "alter": "10 Mon.–2 J.",
      "raum": "Gym III",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eimsbüttelinis bis 2 Jahre"
     },
     {
      "start": "15:00",
@@ -421,7 +464,8 @@
      "alter": "4–6 J.",
      "raum": "Gym I",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Ballett 4-6 Jahre"
     },
     {
      "start": "15:00",
@@ -430,7 +474,8 @@
      "alter": "4–12 J.",
      "raum": "Gym II",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Hobby Horsing (ab 4 Jahre)"
     },
     {
      "start": "15:30",
@@ -439,7 +484,8 @@
      "alter": "4–10 J.",
      "raum": "UH",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Inline-Skating 4 bis 10 Jahre"
     },
     {
      "start": "16:00",
@@ -448,7 +494,8 @@
      "alter": "10 Mon.–2 J.",
      "raum": "Gym III",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eimsbüttelinis bis 2 Jahre"
     },
     {
      "start": "16:00",
@@ -457,7 +504,8 @@
      "alter": "5–9 J.",
      "raum": "Gym I",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Ballett 6-8 Jahre"
     },
     {
      "start": "16:00",
@@ -466,7 +514,8 @@
      "alter": "6–7 J.",
      "raum": "",
      "kind": 6,
-     "art": "A"
+     "art": "A",
+     "clubity": "Mini Judo"
     },
     {
      "start": "17:00",
@@ -475,7 +524,8 @@
      "alter": "6–14 J.",
      "raum": "HW",
      "kind": 6,
-     "art": "A"
+     "art": "A",
+     "clubity": "Karate Anfänger"
     }
    ]
   },
@@ -489,7 +539,8 @@
      "alter": "1–3 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Knirpse in Bewegung 1-3 Jahre"
     },
     {
      "start": "15:00",
@@ -498,7 +549,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eltern-Kind-Turnen 2-4 Jahre"
     },
     {
      "start": "15:00",
@@ -507,7 +559,8 @@
      "alter": "4–6 J.",
      "raum": "GH",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Kinderturnen 4-6 Jahre"
     },
     {
      "start": "15:00",
@@ -516,7 +569,8 @@
      "alter": "5–10 J.",
      "raum": "Gym III",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Kinderyoga 5-9 Jahre"
     },
     {
      "start": "16:00",
@@ -525,7 +579,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Eltern-Kind-Turnen 2-4 Jahre"
     },
     {
      "start": "16:00",
@@ -534,7 +589,8 @@
      "alter": "6–8 J.",
      "raum": "Gym I",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "clubity": "Ballett 6-8 Jahre"
     },
     {
      "start": "16:00",
@@ -543,7 +599,8 @@
      "alter": "6–10 J.",
      "raum": "",
      "kind": 6,
-     "art": "A"
+     "art": "A",
+     "clubity": "Judo Jugend U9 & U11"
     },
     {
      "start": "16:00",
@@ -552,7 +609,8 @@
      "alter": "6–10 J.",
      "raum": "GH",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Kinderturnen 6-10 Jahre"
     },
     {
      "start": "17:00",
@@ -561,7 +619,8 @@
      "alter": "6–14 J.",
      "raum": "HW",
      "kind": 6,
-     "art": "A"
+     "art": "A",
+     "clubity": "Karate Anfänger"
     },
     {
      "start": "17:00",
@@ -570,7 +629,8 @@
      "alter": "6–15 J.",
      "raum": "UH",
      "kind": 6,
-     "art": "S"
+     "art": "S",
+     "clubity": "Skateboard Fortgeschrittene 6-15 Jahre"
     }
    ]
   },
@@ -584,7 +644,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Weekend-Kids 2-4 Jahre"
     },
     {
      "start": "10:00",
@@ -593,7 +654,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Weekend-Kids 2-4 Jahre"
     },
     {
      "start": "11:00",
@@ -602,7 +664,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Weekend-Kids 2-4 Jahre"
     }
    ]
   },
@@ -616,7 +679,8 @@
      "alter": "10 Mon.–2 J.",
      "raum": "Gym III",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Weekend Eimsbüttelinis bis 2 Jahre"
     },
     {
      "start": "09:00",
@@ -625,7 +689,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Weekend-Kids 2-4 Jahre"
     },
     {
      "start": "10:00",
@@ -634,7 +699,8 @@
      "alter": "10 Mon.–2 J.",
      "raum": "Gym III",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Weekend Eimsbüttelinis bis 2 Jahre"
     },
     {
      "start": "10:00",
@@ -643,7 +709,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Weekend-Kids 2-4 Jahre"
     },
     {
      "start": "11:00",
@@ -652,7 +719,8 @@
      "alter": "10 Mon.–2 J.",
      "raum": "Gym III",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Weekend Eimsbüttelinis bis 2 Jahre"
     },
     {
      "start": "11:00",
@@ -661,7 +729,8 @@
      "alter": "2–4 J.",
      "raum": "UH",
      "kind": 2,
-     "art": "S"
+     "art": "S",
+     "clubity": "Weekend-Kids 2-4 Jahre"
     },
     {
      "start": "14:30",
@@ -670,10 +739,12 @@
      "alter": "2–3 J.",
      "raum": "Gym III",
      "kind": 2,
-     "art": "T"
+     "art": "T",
+     "clubity": "Tänzerische Früherziehung Mini 2-3 Jahre"
     }
    ]
   }
  ],
- "geprueft": "2026-11-22: alle Kurse im ETV-Mitgliederbereich (Clubity, Angebote, Filter Alter 2 bzw. 6, Orte Sportzentrum Bundesstraße, Sporthalle Hohe Weide, Bundesstraße 103) für die Woche 23.–29.11.2026 abgeglichen."
+ "geprueft": "2026-11-22: alle Kurse im ETV-Mitgliederbereich (Clubity, Angebote, Filter Alter 2 bzw. 6, Orte Sportzentrum Bundesstraße, Sporthalle Hohe Weide, Bundesstraße 103) für die Woche 23.–29.11.2026 abgeglichen.",
+ "geprueft_am": "2026-11-22"
 }

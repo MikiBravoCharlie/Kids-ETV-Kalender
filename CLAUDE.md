@@ -24,6 +24,29 @@ Antworten auf Deutsch, keine Gedankenstriche als Einschub.
 5. In ein, zwei Sätzen sagen, was sich geändert hat und dass die abonnierten Kalender binnen etwa einer Stunde nachziehen.
 6. Nur auf Wunsch: einen visuellen Wochenplan als Seite erzeugen.
 
+## Wöchentlicher Abgleich mit Clubity (automatisch)
+
+Ziel: mindestens einmal pro Woche ein erfolgreicher Abgleich der Kurse in `kurse.json` mit dem ETV-Mitgliederbereich. Eine geplante Aufgabe in Mirkos Konto versucht es jeden Abend auf seinem Mac, weil nur dort der Browser der Claude-App mit seiner Clubity-Anmeldung läuft. Der Mac ist nicht zu festen Zeiten an; ein ausgefallener Lauf ist normal. Mirko hat entschieden: Änderungen werden automatisch übernommen und danach gemeldet.
+
+1. **Zuerst Datum prüfen.** `geprueft_am` in `kurse.json` lesen. Liegt es weniger als 7 Tage zurück: sofort beenden, nichts melden.
+2. **Clubity öffnen** im Browser der Claude-Desktop-App (Tools `Claude_Browser`). Direkt mit Filtern, jeweils eine volle Woche ab morgen über „Weitere Termine anzeigen“ laden:
+   - 2 Jahre: https://www.clubity.com/app/de/offerings?includeCanceled=false&includePast=false&includeWaitListed=false&locationIds=6f7cea26-0c21-11ed-9436-222560b74e07&locationIds=19f44114-0c24-11ed-a86e-4217ca18cd30&locationIds=2eaa464a-0ce6-11ed-8881-222560b74e07&age=2
+   - 6 Jahre: dieselbe Adresse mit `age=6`
+   Die Ort-IDs stehen für Sportzentrum Bundesstraße, Sporthalle Hohe Weide und Bundesstraße 103. Jeder Eintrag zeigt Kategorie, Titel, Datum mit Wochentag und Uhrzeit, Altersspanne und Ort.
+3. **Nicht angemeldet?** Erscheint die Anmeldemaske oder „Wähle einen Account“: nicht anmelden, keine Zugangsdaten eingeben, nichts anklicken. Mirko per Push melden: „Bitte im Browser der Claude-App bei Clubity anmelden (als Mirko).“ Dann beenden, `geprueft_am` nicht ändern.
+4. **Abgleichen.** Schlüssel ist Feld `clubity` (exakter Titel) + `kind` + Wochentag. Für jeden Kurs in `kurse.json`:
+   - gleicher Titel am gleichen Wochentag, aber andere Start- oder Endzeit: **automatisch anpassen**
+   - Titel kommt nur noch an einem anderen Wochentag vor: **automatisch verschieben**
+   - geänderte Altersangabe: **automatisch anpassen**
+   - Titel in dieser Woche gar nicht vorhanden: **nicht löschen** (kann ein einzelner Ausfall sein), nur melden. Fehlt derselbe Kurs zwei Abgleiche in Folge, im Bericht ausdrücklich empfehlen, ihn zu entfernen.
+   - neues Angebot in Clubity, das nicht in `kurse.json` steht: **nicht hinzufügen**, nur melden. Ausnahme Sportarten ohne Kinderbezug (Badminton, Tennis, Kindergeburtstage, Freies Bouldern, Prüfungen) ignorieren.
+   - Einträge mit Status „gebucht“ in der Meldung erwähnen, nichts daran ändern.
+   - Kurse, die in der geladenen Woche als abgesagt erscheinen, in der Meldung als Ausfall mit Datum nennen.
+5. **Speichern.** `geprueft_am` auf das heutige Datum setzen, `python3 build_ics.py`, Commit („Clubity-Abgleich: …“) und Push nach `main`. Nur lesen in Clubity: nie buchen, stornieren, auf Wartelisten setzen oder Einstellungen ändern.
+6. **Melden** per Push, nur wenn sich etwas geändert hat oder etwas auffällt, in wenigen Zeilen: was automatisch angepasst wurde, was fehlt, was neu ist, Ausfälle der kommenden Woche. Ohne Auffälligkeiten nichts melden.
+
+Ein zweites Sicherheitsnetz läuft in der Cloud: Liegt `geprueft_am` mehr als 14 Tage zurück, wird Mirko erinnert, den Mac mit offener Claude-App laufen zu lassen.
+
 ## Prüfung auf neue ETV-Kurspläne
 
 Eine geplante Aufgabe in Mirkos Konto führt diese Prüfung am 1. jedes Monats und zusätzlich am 15. Dezember aus. Sie kann auch jederzeit von Hand angestoßen werden („prüf, ob der ETV neue Kurspläne hat“). Die Prüfung ändert nichts im Repository; Änderungen werden erst nach Zustimmung nach dem Ablauf oben eingespielt.
