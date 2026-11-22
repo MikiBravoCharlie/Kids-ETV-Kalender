@@ -49,7 +49,7 @@ Ein zweites Sicherheitsnetz läuft in der Cloud: Liegt `geprueft_am` mehr als 14
 
 ## Prüfung auf neue ETV-Kurspläne
 
-Eine geplante Aufgabe in Mirkos Konto führt diese Prüfung am 1. jedes Monats und zusätzlich am 15. Dezember aus. Sie kann auch jederzeit von Hand angestoßen werden („prüf, ob der ETV neue Kurspläne hat“). Die Prüfung ändert nichts im Repository; Änderungen werden erst nach Zustimmung nach dem Ablauf oben eingespielt.
+Eine geplante Aufgabe in Mirkos Konto führt diese Prüfung jedes Jahr am 15. Dezember aus, um einen neuen Jahresplan früh zu bemerken, bevor dessen Termine in Clubity auftauchen. Die frühere monatliche PDF-Prüfung wurde am 22.11.2026 abgeschafft, weil der wöchentliche Clubity-Abgleich dieselben Änderungen mit verlässlicheren Daten findet. Die Prüfung kann auch jederzeit von Hand angestoßen werden („prüf, ob der ETV neue Kurspläne hat“). Sie ändert nichts im Repository; Änderungen werden erst nach Zustimmung und nach Gegenprüfung in Clubity eingespielt.
 
 Aktuell verwendete Pläne (stehen auch unter `quellen` in `kurse.json`, Stand siehe `stand`):
 
