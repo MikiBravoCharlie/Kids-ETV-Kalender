@@ -55,6 +55,8 @@ def main() -> None:
                 else:
                     loc, rname = BUNDES, ROOM.get(raum, raum)
                 extra = "ETV Dance, ggf. Sonderbeitrag. " if k["art"] == "T" else ""
+                if k.get("unsicher"):
+                    extra = "Wochentag unsicher, bitte in der ETV-App prüfen. " + extra
                 key = f"{kind}|{tag['tag']}|{k['start']}|{k['kurs']}|{raum}"
                 uid = hashlib.sha1(key.encode()).hexdigest()[:16]
                 lines += [

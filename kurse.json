@@ -1,5 +1,11 @@
 {
- "hinweis": "Wochentage aus ETV-PDFs 2026 abgeleitet (Kindersport + ETV Dance). Felder: start, ende, kurs, alter, raum, kind (2 oder 6), art (S=Kindersport, T=Tanz). Raum HW = Sporthalle Hohe Weide 17a, SP = Sportplatz Bundesstrasse 103, sonst Sportzentrum Bundesstrasse 96.",
+ "stand": "2026-11-22",
+ "quellen": {
+  "kindersport": "https://www.etv-hamburg.de/_cache/downloads/7270-9140c03c95/cms/Verein/Kindersport/RZ_KINDERSPORTPROGRAMM-2026_Juli-1-1.pdf",
+  "dance": "https://www.etv-hamburg.de/_cache/downloads/7100-368fa00184/cms/Abteilungen/ETV-Dance/Downloads/RZ_DANCE_Kursprogramm-2026_Mai.pdf",
+  "dance_wochentage": "https://etv.athletx.de/ausgabe/fitgym/static.php?hash=dj768s7d6fsdfbssdv887sdvs&schwerpunkt=Screen-Dance-BU"
+ },
+ "hinweis": "Felder: start, ende, kurs, alter, raum, kind (2 oder 6), art (S=Kindersport, T=Tanz), optional unsicher=true. Wochentage Tanz aus der athletx-Kursübersicht, Altersangaben aus dem Dance-PDF. Wochentage Kindersport aus der Blockreihenfolge im PDF, abgeglichen mit den Ferienheften 2026.",
  "wochenstart": "2026-11-23",
  "tage": [
   {
@@ -39,6 +45,15 @@
      "alter": "5–7 J.",
      "raum": "Gym II",
      "kind": 6,
+     "art": "T"
+    },
+    {
+     "start": "15:15",
+     "ende": "16:00",
+     "kurs": "Musikalische Früherziehung mit Eltern",
+     "alter": "1–2 J.",
+     "raum": "HW",
+     "kind": 2,
      "art": "T"
     },
     {
@@ -94,6 +109,15 @@
      "raum": "UH",
      "kind": 2,
      "art": "S"
+    },
+    {
+     "start": "17:00",
+     "ende": "18:00",
+     "kurs": "Contemporary Dance",
+     "alter": "4–6 J.",
+     "raum": "HW",
+     "kind": 6,
+     "art": "T"
     }
    ]
   },
@@ -139,18 +163,18 @@
     {
      "start": "15:00",
      "ende": "16:00",
-     "kurs": "Hip-Hop",
+     "kurs": "Ballett",
      "alter": "4–6 J.",
-     "raum": "HW",
+     "raum": "Gym I",
      "kind": 6,
      "art": "T"
     },
     {
      "start": "15:00",
      "ende": "16:00",
-     "kurs": "Ballett",
+     "kurs": "Jazz Moves / Hip-Hop",
      "alter": "4–6 J.",
-     "raum": "Gym I",
+     "raum": "HW",
      "kind": 6,
      "art": "T"
     },
@@ -202,18 +226,18 @@
     {
      "start": "16:00",
      "ende": "17:00",
-     "kurs": "Hip-Hop",
-     "alter": "6–9 J.",
-     "raum": "HW",
+     "kurs": "Ballett",
+     "alter": "4–6 J.",
+     "raum": "Gym I",
      "kind": 6,
      "art": "T"
     },
     {
      "start": "16:00",
      "ende": "17:00",
-     "kurs": "Ballett",
-     "alter": "4–6 J.",
-     "raum": "Gym I",
+     "kurs": "Jazz Moves / Hip-Hop",
+     "alter": "6–9 J.",
+     "raum": "HW",
      "kind": 6,
      "art": "T"
     },
@@ -259,21 +283,12 @@
      "art": "S"
     },
     {
-     "start": "15:00",
+     "start": "15:15",
      "ende": "16:00",
-     "kurs": "Contemporary Dance",
-     "alter": "6–8 J.",
-     "raum": "Gym II",
-     "kind": 6,
-     "art": "T"
-    },
-    {
-     "start": "15:00",
-     "ende": "16:00",
-     "kurs": "Musical Dance",
-     "alter": "5–7 J.",
-     "raum": "HW",
-     "kind": 6,
+     "kurs": "Eltern-Kind-Tanzen",
+     "alter": "2–3 J.",
+     "raum": "Gym IV",
+     "kind": 2,
      "art": "T"
     },
     {
@@ -346,16 +361,8 @@
      "alter": "6–14 J.",
      "raum": "CC",
      "kind": 6,
-     "art": "T"
-    },
-    {
-     "start": "17:00",
-     "ende": "18:00",
-     "kurs": "Eltern-Kind-Yoga",
-     "alter": "5–9 J.",
-     "raum": "Gym III",
-     "kind": 6,
-     "art": "S"
+     "art": "T",
+     "unsicher": true
     },
     {
      "start": "17:00",
@@ -393,7 +400,7 @@
      "start": "15:00",
      "ende": "16:00",
      "kurs": "Hobby Horsing",
-     "alter": "5–16 J.",
+     "alter": "ab 4 J.",
      "raum": "Gym II",
      "kind": 6,
      "art": "S"
@@ -411,7 +418,7 @@
      "start": "15:30",
      "ende": "16:30",
      "kurs": "Inline-Skating",
-     "alter": "4–7 J.",
+     "alter": "4–8 J.",
      "raum": "UH",
      "kind": 6,
      "art": "S"
@@ -476,15 +483,6 @@
      "art": "S"
     },
     {
-     "start": "15:45",
-     "ende": "16:30",
-     "kurs": "Kindertanz (inklusiv)",
-     "alter": "5–7 J.",
-     "raum": "Gym II",
-     "kind": 6,
-     "art": "T"
-    },
-    {
      "start": "16:00",
      "ende": "17:00",
      "kurs": "Eltern-Kind-Turnen",
@@ -513,12 +511,22 @@
     },
     {
      "start": "17:00",
+     "ende": "18:30",
+     "kurs": "Skateboard Fortgeschrittene",
+     "alter": "6–13 J.",
+     "raum": "UH",
+     "kind": 6,
+     "art": "S"
+    },
+    {
+     "start": "17:00",
      "ende": "18:00",
      "kurs": "Latein",
      "alter": "6–14 J.",
      "raum": "CC",
      "kind": 6,
-     "art": "T"
+     "art": "T",
+     "unsicher": true
     }
    ]
   },

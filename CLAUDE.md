@@ -13,7 +13,7 @@ Antworten auf Deutsch, keine Gedankenstriche als Einschub.
 - Einzige Datenquelle: `kurse.json`. Tage Montag bis Sonntag, je Kurs: `start`, `ende`, `kurs`, `alter`, `raum`, `kind` (2 oder 6), `art` (S = Kindersport, T = Tanz).
 - Räume: `HW` = Sporthalle Hohe Weide 17a, `SP` = Sportplatz Bundesstraße 103, alle anderen Kürzel = Sportzentrum Bundesstraße 96 (UH Untere Halle, GH Große Halle, KH Kleine Halle, Gym I bis V Gymnastikräume, CC Club Céronne Saal).
 - `build_ics.py` erzeugt beide .ics-Dateien aus `kurse.json`. Die UIDs sind stabil, damit Abos Termine aktualisieren statt doppeln.
-- Quellen der Kursdaten stehen im Abschnitt „Prüfung auf neue ETV-Kurspläne“. Die Wochentage sind in den ETV-PDFs unsauber beschriftet; bei Unklarheit nachfragen oder auf die ETV-App verweisen.
+- Quellen und Regeln für aktuelle Daten: Abschnitt „Regeln für aktuelle Daten“. Die Wochentage sind in den ETV-PDFs unsauber beschriftet; Kurse mit `"unsicher": true` in der ETV-App prüfen lassen.
 
 ## Ablauf bei einer Änderung
 
@@ -28,16 +28,29 @@ Antworten auf Deutsch, keine Gedankenstriche als Einschub.
 
 Eine geplante Aufgabe in Mirkos Konto führt diese Prüfung am 1. jedes Monats und zusätzlich am 15. Dezember aus. Sie kann auch jederzeit von Hand angestoßen werden („prüf, ob der ETV neue Kurspläne hat“). Die Prüfung ändert nichts im Repository; Änderungen werden erst nach Zustimmung nach dem Ablauf oben eingespielt.
 
-Aktuell verwendete Pläne (Stand, mit dem `kurse.json` abgeglichen ist):
+Aktuell verwendete Pläne (stehen auch unter `quellen` in `kurse.json`, Stand siehe `stand`):
 
-- Kindersport, gültig ab Januar 2026: https://www.etv-hamburg.de/_cache/downloads/5875-fde3fa2514/cms/Abteilungen/Kindersport/Downloads/Kursplan-Kindersport.pdf
-- ETV Dance Kursprogramm 2026: https://www.etv-hamburg.de/_cache/downloads/5832-82ea7848f8/cms/Abteilungen/ETV-Dance/Downloads/DANCE_Kursprogramm-2026.pdf
+- Kindersport, „Gültig ab August 2026“: https://www.etv-hamburg.de/_cache/downloads/7270-9140c03c95/cms/Verein/Kindersport/RZ_KINDERSPORTPROGRAMM-2026_Juli-1-1.pdf
+- ETV Dance Kursprogramm 2026, Stand Mai: https://www.etv-hamburg.de/_cache/downloads/7100-368fa00184/cms/Abteilungen/ETV-Dance/Downloads/RZ_DANCE_Kursprogramm-2026_Mai.pdf
 
-Vorgehen:
+## Regeln für aktuelle Daten
 
-1. Per Websuche die aktuellen Kursplan-PDFs für Kindersport und ETV Dance auf etv-hamburg.de suchen. Ein neuer Plan erkennt sich meist an einer anderen Download-Nummer in der URL, einem neuen Gültigkeitsdatum („gültig ab …“) oder einer neuen Jahreszahl. Ferienhefte (März-, Mai-, Sommer-, Herbstferien) sind keine neuen Pläne.
+Diese Regeln gelten für die Prüfung und für jeden Neuaufbau von `kurse.json`. Hintergrund: Am Anfang wurde `kurse.json` aus dem ersten Suchtreffer gebaut, einem Plan „gültig ab Januar 2026“, obwohl längst ein Plan „gültig ab August 2026“ online war.
+
+1. **Einstieg sind immer die offiziellen Programmseiten, nicht die Websuche.** Der dort verlinkte Plan ist der aktuelle:
+   - Kindersport: https://www.etv-hamburg.de/de/sportangebot/Sportprogramme/kindersport/ (Abschnitt „Kursplan“)
+   - ETV Dance: https://www.etv-hamburg.de/de/sportangebot/Sportprogramme/dance/ (Abschnitt „Dance Kursprogramm“)
+   Suchtreffer können alte Fassungen, Schulkooperationen oder Ferienhefte sein. Die Websuche nur nutzen, wenn eine Programmseite nicht erreichbar ist, und das dann melden.
+2. **Version immer belegen.** Bei jedem verwendeten Plan Gültigkeitsdatum oder Stand und den Link notieren, in `kurse.json` unter `quellen` und `stand` und in dieser Datei.
+3. **Gleicher Link heißt kein neuer Plan.** Stimmt der auf der Programmseite verlinkte Plan mit dem hier eingetragenen überein, ist nichts zu vergleichen. Dann sofort „Keine neuen ETV-Kurspläne gefunden“ melden.
+4. **Wochentage aus der besten Quelle.** Die PDFs sind beim Auslesen ohne Spaltenlayout, die Tagesüberschriften rutschen. Für Tanzkurse an der Bundesstraße liefert die athletx-Kursübersicht klare Wochentage (Link auf der Dance-Seite unter „Kursprogramm“, Sportzentrum Bundesstraße): https://etv.athletx.de/ausgabe/fitgym/static.php?hash=dj768s7d6fsdfbssdv887sdvs&schwerpunkt=Screen-Dance-BU. Altersangaben stehen nur im PDF. Beim Kindersport ergeben sich die Tage aus der Blockreihenfolge im PDF, abgeglichen mit den Ferienheften. Kurse, deren Tag sich nicht belegen lässt, in `kurse.json` mit `"unsicher": true` markieren.
+5. **Bestätigungen durch Mirko oder seine Frau haben Vorrang.** Bestätigt: Hip-Hop/Streetdance 6–9 J. ist dienstags 15:00.
+
+## Ablauf der Prüfung
+
+1. Die beiden Programmseiten öffnen und die verlinkten Plan-PDFs mit den oben eingetragenen vergleichen. Ferienhefte (März-, Mai-, Sommer-, Herbstferien) sind keine neuen Pläne.
 2. Gibt es keinen neueren Plan: kurz melden „Keine neuen ETV-Kurspläne gefunden“ und fertig.
-3. Gibt es einen neueren Plan: ihn lesen und nur die Kurse vergleichen, die für das Repository relevant sind (Sportzentrum Bundesstraße und Sporthalle Hohe Weide, Altersangaben, die 2 oder 6 Jahre einschließen). Mit `kurse.json` abgleichen.
+3. Gibt es einen neueren Plan: ihn lesen und nur die Kurse vergleichen, die für das Repository relevant sind (Sportzentrum Bundesstraße und Sporthalle Hohe Weide, Altersangaben, die 2 oder 6 Jahre einschließen). Wochentage nach Regel 4 bestimmen. Mit `kurse.json` abgleichen.
 4. Ergebnis als kurze Liste melden: neue Kurse, weggefallene Kurse, geänderte Zeiten, Tage oder Räume, jeweils mit Kind (2 oder 6). Unsichere Wochentage ausdrücklich als unsicher kennzeichnen. Link zum neuen PDF angeben.
 5. Fragen, ob die Änderungen übernommen werden sollen. Nach Zustimmung nach dem Ablauf oben ändern und hier in diesem Abschnitt die Liste der aktuell verwendeten Pläne aktualisieren.
 
